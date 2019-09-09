@@ -2,6 +2,7 @@
 # Web scraping tutorials (Python)
 
 In these tutorials, we will learn to build some simple but useful scrapers from scratch.
+In this we create web scraper which track price change in amazon product. 
 
 
 **Learning from code,**
