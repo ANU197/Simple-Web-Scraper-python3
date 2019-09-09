@@ -30,11 +30,11 @@ def send_mail():
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('apdeban@gmail.com', '54115411')
+    server.login('Your_Email', 'Your_Password')
     Subject = 'Price Fell Down!'
     body = f'Check Amazon Link : {URL1}'
     msg = f"Subject:{Subject}\n\n{body}"
-    server.sendmail('apdeban@gmail.com', 'anurag2014porwal@gmail.com', msg)
+    server.sendmail('From', 'To', msg)
     print('Hey Email has been Sent!Check inbox.......')
     server.quit()
 
